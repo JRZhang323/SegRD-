@@ -8,7 +8,6 @@ import torch
 # data_utils用于为mvtec_period2_dataset生成noise
 
 """生成更自然异常的伪异常机制(DTD)"""
-"""The scripts here are copied from DRAEM: https://github.com/VitjanZ/DRAEM"""
 
 def lerp_np(x, y, w):
     fin_out = (y - x) * w + x
