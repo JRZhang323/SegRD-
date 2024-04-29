@@ -186,7 +186,7 @@ if __name__ == "__main__":
     parser.add_argument('--weight_proj', default=0.2, type=float)
     parser.add_argument("--train_bs", type=int, default=16)
     parser.add_argument("--test_bs", type=int, default=1)
-    parser.add_argument("--period1_steps", type=int, default=3000)
+    parser.add_argument("--period1_steps", type=int, default=5000)
     parser.add_argument('--image_size', default=256, type=int)
     parser.add_argument("--log_per_steps", type=int, default=10)
 
