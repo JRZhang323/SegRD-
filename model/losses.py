@@ -4,9 +4,6 @@ from torch.nn import functional as F
 import geomloss
 
 # loss of two periods
-"""Some scripts here are copied from RD++: https://github.com/tientrandinh/revisiting-reverse-distillation"""
-"""Some scripts here are copied from DeSTSeg: https://github.com/apple/ml-destseg"""
-
 
 """period 2 : focal_loss and l1_loss"""
 def focal_loss(inputs, targets, alpha=-1, gamma=4, reduction="mean"):
