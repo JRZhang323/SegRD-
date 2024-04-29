@@ -26,9 +26,9 @@ pip install -r requirements.txt
 
 1 自行下载MVTec AD数据集和Describable Textures Dataset
  
-    MVTec AD ：wget https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f282/download/420938113-1629952094/mvtec_anomaly_detection.tar.xz
+  MVTec AD ：wget https://www.mydrive.ch/shares/38536/3830184030e49fe74747669442f0f282/download/420938113-1629952094/mvtec_anomaly_detection.tar.xz
  
-    Describable Textures Dataset ： wget https://www.robots.ox.ac.uk/~vgg/data/dtd/download/dtd-r1.0.1.tar.gz
+  Describable Textures Dataset ： wget https://www.robots.ox.ac.uk/~vgg/data/dtd/download/dtd-r1.0.1.tar.gz
 
 2 运行前请自行更改两个train文件中的mvtec_path, dtd_path, save_path的路径
    
