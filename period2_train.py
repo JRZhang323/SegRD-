@@ -204,9 +204,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--gpu_id", type=int, default=0)
-    parser.add_argument("--mvtec_path", type=str, default="/data1/zhangjr/dataset/MVtec/")
-    parser.add_argument("--dtd_path", type=str, default="/data1/zhangjr/dataset/dtd/images/")
-    parser.add_argument("--save_path", type=str, default="/data1/zhangjr/Final/SegRD++/save_path")
+    parser.add_argument("--mvtec_path", type=str, default="./dataset/MVtec/")
+    parser.add_argument("--dtd_path", type=str, default="./dataset/dtd/images/")
+    parser.add_argument("--save_path", type=str, default="./save_path")
     parser.add_argument("--train_bs", type=int, default=16)
     parser.add_argument("--test_bs", type=int, default=1)
     parser.add_argument("--lr_res", type=float, default=0.1)
