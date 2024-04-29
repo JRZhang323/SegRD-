@@ -9,7 +9,6 @@ from data.data_utils import perlin_noise
 
 
 # period2 dataset作为训练两个阶段的数据集，以及二阶段训练的评估
-"""The scripts here are copied from DeSTSeg: https://github.com/apple/ml-destseg"""
 
 class MVTecDataset(Dataset):
     def __init__(
