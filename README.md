@@ -1,2 +1,2 @@
-# SegRD-
+# SegRD++
 The code of SegRD++
