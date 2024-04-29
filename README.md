@@ -39,7 +39,7 @@ pip install -r requirements.txt
     运行训练第二阶段： python period2_train.py --gpu_id 0
 
 
-# 部分代码来源
+# 部分代码来源  深表感谢
 
 RD++: https://github.com/tientrandinh/revisiting-reverse-distillation
 
