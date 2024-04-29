@@ -12,7 +12,6 @@ import warnings
 
 
 # Period 1 : RD++的inference设计(evaluation_multi_proj)
-"""Some scripts here are copied from RD++: https://github.com/tientrandinh/revisiting-reverse-distillation"""
 
 warnings.filterwarnings("ignore")
 
