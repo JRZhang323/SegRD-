@@ -39,7 +39,7 @@ pip install -r requirements.txt
     运行训练第二阶段： python period2_train.py --gpu_id 0
 
 
-# 部分代码来源  深表感谢
+# 部分代码来源  
 
 RD++: https://github.com/tientrandinh/revisiting-reverse-distillation
 
@@ -48,3 +48,6 @@ DeSTSeg: https://github.com/apple/ml-destseg
 ReviewKD: https://github.com/dvlab-research/ReviewKD
 
 DRAEM: https://github.com/VitjanZ/DRAEM
+
+本文对RD++方法进行改进，改进过程中受到了DeSTSeg，ReviewKD，DRAEM等方法的启发并引用了部分代码，在此对各位作者深表感谢！
+
