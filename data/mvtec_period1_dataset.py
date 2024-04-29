@@ -9,6 +9,7 @@ from data.noise import Simplex_CLASS
 
 
 # period1 dataset用于一阶段训练的评估，确定出最好结果并保存其参数
+"""The scripts here are copied from RD++: https://github.com/tientrandinh/revisiting-reverse-distillation"""
 
 class ToTensor(object):
     def __call__(self, image):
