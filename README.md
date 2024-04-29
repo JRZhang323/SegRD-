@@ -10,7 +10,8 @@
 
 
 
-搭建环境
+环境搭建：
+
 conda create -n SegRD++_env python=3.9
 
 conda activate SegRD++_env
