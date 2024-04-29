@@ -1,0 +1,12 @@
+anomalib==0.4.0
+imgaug==0.4.0
+matplotlib==3.7.1
+numpy==1.24.2
+opencv_python_headless==4.7.0.72
+Pillow==9.5.0
+tensorboardX==2.6
+timm==0.6.12
+torchmetrics==0.10.3
+geomloss==0.2.6
+numba==0.59.0
+
