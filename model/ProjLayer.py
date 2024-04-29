@@ -3,7 +3,6 @@ import torch.nn as nn
 
 
 # period1 主要架构：RD++中的投影层MultiProjectionLayer
-"""The scripts here are copied from RD++: https://github.com/tientrandinh/revisiting-reverse-distillation"""
 
 """Period 1 : ProjLayer and MultiProjectionLayer """
 class ProjLayer(nn.Module):
