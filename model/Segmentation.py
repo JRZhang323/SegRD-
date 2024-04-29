@@ -6,7 +6,6 @@ from torch import Tensor
 
 
 # period2 主要架构：Segmentation Network
-"""Some scripts here are copied from DeSTSeg: https://github.com/apple/ml-destseg"""
 
 def conv3x3(
     in_planes: int, out_planes: int, stride: int = 1, groups: int = 1, dilation: int = 1
