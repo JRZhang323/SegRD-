@@ -15,7 +15,6 @@ from model.de_resnet import de_resnet18, de_resnet34, de_wide_resnet50_2, de_res
 
 
 # Period 2 : Seg的inference设计(Seg_evaluate)
-"""Some scripts here are copied from DeSTSeg: https://github.com/apple/ml-destseg"""
 
 warnings.filterwarnings("ignore")
 
