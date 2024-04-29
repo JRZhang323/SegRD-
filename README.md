@@ -2,6 +2,8 @@
 The code of SegRD++
 
 搭建环境
+![period1](https://github.com/JRZhang323/SegRRD/assets/168359661/5c64113e-09cb-4154-81ab-3e7c77e3cfee)
+
 
 conda create -n SegRD++_env python=3.9
 
