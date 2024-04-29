@@ -3,7 +3,6 @@ from torch import nn
 import torch.nn.functional as F
 
 # period1 主要架构：ReviewKD中的ABF与HCL
-"""Some scripts here are copied from ReviewKD: https://github.com/dvlab-research/ReviewKD"""
 
 #abf：feature融合机制
 class ABF(nn.Module):
