@@ -75,7 +75,6 @@ def Seg_evaluate(args, category, model, global_step):
 
         print("Eval at step", global_step)
         print("================================")
-        print("Segmentation Guided Reverse Review Distillation (SegRRD)")
         print("pixel_AUC:", round(float(auc_seg), 4))
         print("PRO:", round(float(aupro_seg), 4))
         print("image_AUC:", round(float(auc_detect_seg), 4))
