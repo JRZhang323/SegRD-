@@ -10,7 +10,7 @@
 
 
 
-环境搭建：
+# 环境搭建
 
 conda create -n SegRD++_env python=3.9
 
@@ -21,3 +21,13 @@ git clone https://github.com/JRZhang323/SegRRD
 pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 -f https://download.pytorch.org/whl/torch_stable.html
 
 pip install -r requirements.txt
+
+# 代码运行
+
+运行训练第一阶段：
+
+python period1_train.py --gpu_id 0
+
+运行训练第二阶段：
+
+python period2_train.py --gpu_id 0
