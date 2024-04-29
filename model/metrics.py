@@ -16,7 +16,6 @@ from torchmetrics.utilities.data import dim_zero_cat
 
 
 #Period2 评估标准
-"""The scripts here are copied from DeSTSeg: https://github.com/apple/ml-destseg"""
 
 class AUPRO(Metric):
     """Area under per region overlap (AUPRO) Metric. Copy from anomalib: https://github.com/openvinotoolkit/anomalib"""
