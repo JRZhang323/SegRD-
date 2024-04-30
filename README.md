@@ -30,7 +30,7 @@ pip install -r requirements.txt
  
   Describable Textures Dataset ： wget https://www.robots.ox.ac.uk/~vgg/data/dtd/download/dtd-r1.0.1.tar.gz
 
-2 运行前请自行更改两个train文件中的mvtec_path, dtd_path, save_path的路径
+2 运行前请自行更改train文件中的mvtec_path, dtd_path, save_path的路径
    
 3 训练： python train.py --gpu_id 0
 
